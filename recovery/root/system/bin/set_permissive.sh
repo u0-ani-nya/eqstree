@@ -1,0 +1,26 @@
+#!/sbin/bash
+    stop hwservicemanager
+    stop servicemanager
+    stop keystore2
+    stop qseecomd
+    stop gatekeeper-1-0
+    stop gatekeeper-1-0-qti
+    stop keymaster-3-0
+    stop keymaster-3-0-qti
+    stop keymaster-4-0-qti
+    stop keymaster-sb-4-0
+    stop keymaster-4-1
+    stop keymaster-4-1-qti
+    stop keymaster-4-1-citadel
+    setenforce 0
+    start hwservicemanager
+    start servicemanager
+    start keystore2
+    start gatekeeper-1-0
+    start gatekeeper-1-0-qti
+    start qseecomd
+    start keymaster-4-0-qti
+    start keymaster-sb-4-0
+    start keymaster-4-1
+    start keymaster-4-1-qti
+    start keymaster-4-1-citadel
